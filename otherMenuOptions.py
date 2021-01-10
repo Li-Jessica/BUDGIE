@@ -37,7 +37,7 @@ def financialInfo():
         print("[3] How to make a bank account?")
         print("[4] What is interest?")
         print("[5] What is credit?")
-        print("[6] Exit")
+        print("[6] Go back to main menu")
         print("=================================================")
 
         user_input = input("Please enter your option: ")

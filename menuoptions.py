@@ -10,7 +10,7 @@ import os.path
 from os import path
 
 def budgetPlanner():
-    filename = str(datetime.datetime.now().month) + str(datetime.datetime.now().year) + '.csv'
+    filename = str(datetime.datetime.now().month) + str(datetime.datetime.now().year) + '_log' + '.csv'
     entryList = read_file(filename) # read specific csv file to list
 
     while True:
@@ -22,7 +22,7 @@ def budgetPlanner():
         print("[4] Check balance")
         print("[5] Check budget")
         print("[6] Display current records")
-        print("[7] Exit")
+        print("[7] Go back to main menu")
         print("==================================")
 
         try:
@@ -32,8 +32,6 @@ def budgetPlanner():
             balance = 0 # total balance
             total_in = 0 # total income
             total_out = 0 # total expenses
-
-            print (entryList) #debug, remove later
 
             if not entryList: # if csv is empty, initiate the following values
                 entryList.append([balance,total_in])  # 0 0, 0 1
@@ -157,7 +155,7 @@ def getInputName():
 def updateFile(lst):
     df = pd.DataFrame(lst)
     date = datetime.datetime.now()
-    df.to_csv(str(date.month) + str(date.year) + '.csv', index=False, header=False) # write for specific month
+    df.to_csv(str(date.month) + str(date.year) + '_log' + '.csv', index=False, header=False) # write for specific month
 
 # reads and check if csv exists
 def read_file(file_name):
