@@ -1,11 +1,3 @@
-## Inspiration
-Although advances in technology have helped to spur various movements in youth education across the globe, we find that financial literacy remains an under-discussed topic in formal and informal youth education. We know that many female youth, ourselves included, often understand little about the management of personal finances, which is crucial towards achieving financial independence as an adult. By providing a simple budgeting application for such teenagers, we teach them to take control and be mindful of their spending at an early age, thus paving their way towards understanding finance management developing good money-managing habits that will last them a lifetime. 
-
-## What it does
-BUDGIE allows users to set personal budget goals and keep track of their balance, expenses, income, and budget use on a monthly basis. Users can enter in amounts of money they receive as “income”, and record various expenses associated with custom expense names. After the user enters a new transaction – ie. An income or expense – they can track the resulting changes in their total monthly balance using a check balance option. Most importantly, users can set a custom budget that can be easily modified by them if needed. Through the check budget function in BUDGIE, users who have set a valid budget can be reminded of how much their total monthly budget is, as well as how much of the current budget has been used and the amount that remains. If users exceed their stated budget, the budget check will alert them about this, in addition to indicating how much (in dollars) that they’ve exceeded their budget by. Aside from personal finance management, users can also browse the app‘s “About” and “Financial Tips” sections, which include detailed information about the app’s various functionalities and other useful beginner finance tips, including a guide to banking for youth. 
-
-Additionally, the program also allows the user to print a concise record of the income, budget, and expenses that they have entered as a single csv file, which is named using the date of the user’s computer. The user can easily import this file into other data analysis programs for further processing if they wish to do so. 
-
 ## Running the application
 
 ### Using your Terminal:
@@ -30,6 +22,14 @@ Additionally, the program also allows the user to print a concise record of the 
 1. Run `main.exe`
 
 2. That's it! 
+
+## Inspiration
+Although advances in technology have helped to spur various movements in youth education across the globe, we find that financial literacy remains an under-discussed topic in formal and informal youth education. We know that many female youth, ourselves included, often understand little about the management of personal finances, which is crucial towards achieving financial independence as an adult. By providing a simple budgeting application for such teenagers, we teach them to take control and be mindful of their spending at an early age, thus paving their way towards understanding finance management developing good money-managing habits that will last them a lifetime. 
+
+## What it does
+BUDGIE allows users to set personal budget goals and keep track of their balance, expenses, income, and budget use on a monthly basis. Users can enter in amounts of money they receive as “income”, and record various expenses associated with custom expense names. After the user enters a new transaction – ie. An income or expense – they can track the resulting changes in their total monthly balance using a check balance option. Most importantly, users can set a custom budget that can be easily modified by them if needed. Through the check budget function in BUDGIE, users who have set a valid budget can be reminded of how much their total monthly budget is, as well as how much of the current budget has been used and the amount that remains. If users exceed their stated budget, the budget check will alert them about this, in addition to indicating how much (in dollars) that they’ve exceeded their budget by. Aside from personal finance management, users can also browse the app‘s “About” and “Financial Tips” sections, which include detailed information about the app’s various functionalities and other useful beginner finance tips, including a guide to banking for youth. 
+
+Additionally, the program also allows the user to print a concise record of the income, budget, and expenses that they have entered as a single csv file, which is named using the date of the user’s computer. The user can easily import this file into other data analysis programs for further processing if they wish to do so. 
 
 ## How we built it
 We created BUDGIE using python and pandas. 
